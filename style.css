@@ -1,0 +1,91 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to left bottom, pink, lightblue );
+
+}
+
+.container{
+    
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    padding: 5px;
+    border-radius: 10px;
+    width: 85%;
+    color: darkmagenta;
+    text-align: center;
+    margin: 10px;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.joke{
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+#btn{
+
+    padding: 8px 10px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+    transition: all 300ms ease;
+}
+
+
+
+
+.ft{
+    margin: 60px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, .3);
+    background: linear-gradient(to left bottom, rgb(255, 255, 255), rgb(194, 194, 194) );
+
+    box-shadow: 0 6px 10px rgba(0,0,0,.3);
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
+    color: darkmagenta;
+    text-align: center;
+
+}
+
+@media screen and (min-width=500px) {
+
+    .heading{
+        font-size: 20px;
+        
+    
+    }
+
+   
+
+    
+}
